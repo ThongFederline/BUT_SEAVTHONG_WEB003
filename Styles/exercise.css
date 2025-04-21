@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    display: flex;
+    font-weight: bold;
+    font-size: 40px;
+    color:white;
+    gap:4px;
+}
+nav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ulnabar{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    list-style-type: none;
+}
+.ulnabar li a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight:bold;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+}
+.ulnabar li a:hover{
+    text-decoration: underline;
+}
+header{
+    height: 4rem;
+    background-color: #3A75B0;
+    padding-top: 1rem;
+}
+a{
+ color: #296B8F;
+}
+a:hover{
+    color: #f76653;
+}
+a:active{
+    color:red;
+}
+
+/* bellow is the footer section style */
+.containfoot{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    height: 4rem;
+    background-color: #EBEBEB;
+    justify-content: center;
+    align-items: center;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.foot li a {
+    text-decoration: none;
+}
+.foot  li{
+    list-style: none;
+}
+.foot li a:hover {
+    text-decoration:underline;
+}
+.onfooter{
+    width: 100%;
+    height: auto;
+    background-color: #121212;
+}
+.containonfooter{
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+.lsfooter{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    color: #818181;
+}
+.name{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+.contact{
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    gap: 1rem;
+}
+.containfoot{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    height: 4rem;
+    background-color: #EBEBEB;
+    justify-content: center;
+    align-items: center;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.foot li a {
+    text-decoration: none;
+}
+.foot  li{
+    list-style: none;
+}
+.foot li a:hover {
+    text-decoration:underline;
+}
+.onfooter{
+    width: 100%;
+    height: auto;
+    background-color: #121212;
+}
+.containonfooter{
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+.lsfooter{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    color: #818181;
+}
+.name{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+.contact{
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    gap: 1rem;
+}
+
+/* start body code */
+.section_card{
+    width: 100%;
+    height: auto;
+    /* background-color: #F1EFED; */
+    background-color:whitesmoke;
+    display: flex;
+    flex-direction: column;
+}
+.wholecard{
+    margin: auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.cardone{
+    width:40%;
+    height: 100%;
+    background-color: white;
+    line-height: 2rem;
+    font-size: larger;
+    padding: 2rem;
+    border-radius: 10px;
+    gap: 2rem;
+}
+.btn a{
+    width: fit-content;
+    height: 2rem;
+    background-color: #04536F;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+}
+.cardone ul {
+    list-style: none;
+}
